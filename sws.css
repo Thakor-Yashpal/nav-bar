@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: inherit;
+    margin-left: 0;
+}
+
+
+/* links inside the navigation bar */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: dodgerblue;
+}
+
+
+/* highlights the current page in white */
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+
+/* positions the dropdown content */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 20px;
+    background-color: dodgerblue;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+/* highlights a link in white when it is hovered over */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn .dropdown-content a:hover {
+    background-color: white;
+}
+
+
+/* dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    background-color: rgba(30, 144, 255, 0.95);
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.links {
+    padding: 21px 30px;
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+    font family: inherit;
+}
